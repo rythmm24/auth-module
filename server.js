@@ -21,7 +21,7 @@ const LoggerMiddleware = (req,res,next) =>{
 app.use(LoggerMiddleware);
 
 db.mongoose
-  .connect('mongodb+srv://rythmm-98:Tanmay@1998@cluster0.zzh8c.mongodb.net/auth-db?retryWrites=true&w=majority', {
+  .connect('mongodb+srv://rythmm-98:iamsexy2@cluster0.zzh8c.mongodb.net/auth-db?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
