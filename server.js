@@ -23,7 +23,8 @@ app.use(LoggerMiddleware);
 db.mongoose
   .connect('mongodb+srv://rythmm-98:iamsexy2@cluster0.zzh8c.mongodb.net/auth-db?retryWrites=true&w=majority', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true,
   })
   .then(() => {
     console.log("Successfully connect to MongoDB.");
